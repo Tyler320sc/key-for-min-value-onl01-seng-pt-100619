@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.each |key, value| do 
-    if value == 1 
+    if value == [1] 
       puts "#{key}"
     elsif
       value == []
